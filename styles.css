@@ -1,0 +1,69 @@
+body {
+  padding-top: 5%;
+  margin: 0;
+  background-image: url(https://i.imgur.com/7gDvu1R.jpg);
+  background-repeat: no-repeat;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  margin: 2.5px;
+  padding-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.showcase {
+  background-color: lightgrey;
+  opacity: 0.8;
+  width: 350px;
+  border: 1px black;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 0px;
+  display: grid;
+}
+.showcase .team p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 200;
+padding: 4px;
+margin: 2px;
+}
+.showcase .team h3 {
+  padding-bottom: 5px;
+}
+
+#myForm>input {
+  border-width: 1px;
+  font-weight: 600;
+  border: 0px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 16px;
+
+}
+
+#myForm>button {
+  border-width: 0px;
+  padding: 16px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+  opacity: 0.8;
+  color: white;
+  font-weight: 600;
+}
+
+#table>p {
+  color: black;
+  margin-right: 10px;
+}
